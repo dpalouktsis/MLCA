@@ -21,14 +21,16 @@ Steps:
 
 2. Download the Data:
    Open the `Gutenberg_Downloads.ipynb` notebook and execute it to download and preprocess the book data. In case you do not want to run the script you may find the output file here:
+   https://drive.google.com/file/d/1oAMotp7pM5ooxuskAI3VxtjKttmgM8AW/view?usp=sharing
 
-3. Create the CSV File:
+4. Create the CSV File:
    Run the `Creation_of_the_csv_file.ipynb` to generate the necessary CSV file (`BOOKS_DATA_updated.csv`) that will be used in the Flask application. In case you do not want to run the script you may find the output file here:
+   https://drive.google.com/file/d/1Qo--94_7lbfvoC96m0e-RSob53S1GGL1/view?usp=sharing
 
-4. Train the Topic Model:
+6. Train the Topic Model:
    Open the `MLCA_Topic_Modelling_final.ipynb` and execute the cells to train the NMF topic model and save the results (`nmf_model.pkl`, `tfidf_vectorizer.pkl`, `nmf_topics.pkl`).
 
-5. Run the Flask App:
+7. Run the Flask App:
    In the terminal, navigate to the directory containing `app.py` and run the following command:
    ```
    python app.py
