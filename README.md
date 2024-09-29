@@ -10,6 +10,7 @@ Prerequisites:
 5. Scikit-learn
 6. NLTK (with stopwords)
 7. Joblib
+8. WordCloud
 
 Steps:
 1. Install the dependencies:
