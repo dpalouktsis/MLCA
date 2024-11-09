@@ -38,7 +38,7 @@ Steps:
    The app will be accessible at `http://127.0.0.1:5000/`.
 
 Usage:
-- Visit the web interface and input a query about books (e.g., "recommend books about science fiction").
+- Visit the web interface and input a query about books (e.g. "recommend books about science fiction").
 - The system will return a list of book recommendations based on topic similarity.
 
 
